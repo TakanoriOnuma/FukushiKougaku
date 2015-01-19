@@ -9,3 +9,11 @@ body {
 p.name {
   text-align: right;
 }
+
+ul.menu {
+  list-style-type: none;
+}
+
+ul.submenu {
+  list-style-type: none;
+}
