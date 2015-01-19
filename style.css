@@ -1,5 +1,7 @@
 body {
   width: 80%;
+  margin-left: 10%;
+  line-height: 1.5em;
 }
 
 .title {
@@ -12,8 +14,12 @@ p.name {
 
 ul.menu {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 ul.submenu {
   list-style-type: none;
+  margin: 0;
+  padding-left: 1.0em;
 }
