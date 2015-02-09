@@ -2,10 +2,45 @@ body {
   width: 80%;
   margin-left: 10%;
   line-height: 1.5em;
+  background-color: lightsalmon;
 }
 
 .title {
   text-align: center;
+  background-color: orangered;
+  padding: 10px;
+  color: white;
+}
+
+h2.subtitle {
+  color: white;
+  background-color: red;
+  padding: 5px;
+  margin-bottom: 0;
+}
+
+.contents {
+  margin-top: 0;
+  padding: 1em;
+  padding-top: 0.1em;
+  padding-bottom: 0;
+  border-style: dotted;
+  border-top-style: none;
+  border-color: red;
+  border-width: 1;
+  background-color: salmon;
+}
+
+.subcontents {
+  padding-left: 1em;
+}
+
+h3 {
+  font-weight: bold;
+  color: blue;
+  border-left-style: solid;
+  border-left-width: 0.5em;
+  padding-left: 2px;
 }
 
 p.name {
@@ -22,4 +57,9 @@ ul.submenu {
   list-style-type: none;
   margin: 0;
   padding-left: 1.0em;
+}
+
+dt {
+  font-size: 1.2em;
+  font-weight: bold;
 }
