@@ -63,3 +63,12 @@ dt {
   font-size: 1.2em;
   font-weight: bold;
 }
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: green;
+}
