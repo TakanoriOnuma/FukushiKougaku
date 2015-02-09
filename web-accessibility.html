@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8" />
+<link rel="stylesheet" href="style.css">
+<title>Webアクセシビリティ</title>
+</head>
+<body>
+<h1 class="title">Webアクセシビリティ</h1>
+<h2 class="subtitle">全盲の人に対するアクセシビリティ</h2>
+<div class="contents">
+  <h3>全盲の人が見るWebページの困難なところ</h3>
+  <div class="subcontents">
+    <ul>
+      <li>画像や動画の情報を見るのが困難</li>
+      <li>ページのアクセス法に困難（どうやって次のページを選択するか）</li>
+      <li>今読んでいる場所が分からない（そのページのレイアウトも分からない）</li>
+      <li>同音異語で誤解を受ける／読み上げ機能が間違えた読みを読む可能性がある</li>
+      <li>一度聞き逃すとまた聞き直すのが大変</li>
+      <li>情報探索が大変</li>
+    </ul>
+  </div>
+  <h3>グラフの情報を全盲の人が理解するためには</h3>
+  <div class="subcontents">
+    <p>[解決策1] ALT属性をグラフ中の情報を記述する<br />
+      [解決策2] 本文中に表などで記述する</p>
+  </div>
+</div>
+<h2 class="subtitle">アクセシブルなWebデザイン</h2>
+<div class="contents">
+  <h3>こころWebからのアクセシブルなWebデザイン</h3>
+  <div class="subcontents">
+    <p><a href="http://www.kokoroweb.org/tips/part1-1.html">こころWeb</a>から
+      アクセシブルなWebデザインについてのポイントを箇条書きにすると以下のようになる。<br />
+      <ul>
+        <li>英語の乱用はせず、誰にでも分かるように配慮すること</li>
+        <li>画像にはALT属性を付けること</li>
+        <li>特にリンクする画像にはALT属性をつけること</li>
+        <li>各ページの頭には適当なタイトルをいれること</li>
+        <li>一単語内にスペースを入れないこと</li>
+        <li>イメージマップはクライアントサイドを使用し、ALT属性を付けること</li>
+        <li>フレームは最小限にすること</li>
+      </ul></p>
+  </div>
+  <h3>ウェブアクセシビリティの国際的ガイドライン</h3>
+  <div class="subcontents">
+    <dl>
+      <dt>WCAG2.0</dt>
+      <dd>
+        <ul>
+          <li>Web Content Accessibility Guidelines 2.0の略称</li>
+          <li>2008年12月 W3C（ウェブの標準化団体）が勧告</li>
+          <li>WCAG1.0は1999年</li>
+        </ul>
+      </dd>
+    </dl>
+    <p>WCAGの4つの原則は以下のとおりである。
+      <dl>
+        <dt>知覚可能</dt>
+        <dd>情報およびユーザインターフェースの構成要素は、ユーザが
+          知覚できる方法でユーザに提示可能でなければならない</dd>
+      </dl>
+      <dl>
+        <dt>操作可能</dt>
+        <dd>ユーザインターフェースの構成要素およびナビゲーションは
+          操作可能でなければならない</dd>
+      </dl>
+      <dl>
+        <dt>理解可能</dt>
+        <dd>情報およびユーザインターフェースの操作は理解可能でなければならない</dd>
+      </dl>
+      <dl>
+        <dt>ロバスト性</dt>
+        <dd>コンテンツは、支援技術を含む様々なユーザエージェントが
+          確実に解釈できるように十分に堅牢でなければならない</dd>
+      </dl>
+    </p>
+    <p>達成基準が抽象的な記述であるため、具体的な対応が分かりづらいため
+      以下のような捕捉文書がある。<br />
+      <dl>
+        <dt>WCAG2.0解説書</dt>
+        <dd>Understanding WCAG2.0</dd>
+      </dl>
+      <dl>
+        <dt>WCAG2.0実装方法集</dt>
+        <dd>Techniques for WCAG2.0</dd>
+      </dl>
+    </p>
+  </div>
+  <h3>ウェブアクセシビリティの国内規格</h3>
+  <div class="subcontents">
+    <dl>
+      <dt>JIS X 8341-3</dt>
+      <dd>
+        <ul>
+          <li><strong>高齢者</strong>・障害者等配慮設計指針―情報通信における
+            機器、ソフトウェアおよびサービス―第3部：ウェブコンテンツ</li>
+          <li>2004年にWCAG1.0を参考に制定</li>
+          <li>2010年にWCAC2.0を参考に改訂</li>
+          <li>WCAG2.0と同じ基準を採用</li>
+        </ul>
+      </dd>
+    </dl>
+    <p>この規格の具体例を交えて説明しているサイトは以下のサイトなどがある。<br />
+      <a href="http://jp.fujitsu.com/about/design/ud/jis-sc/">JIS X 8341-3:2010年の規格の具体例</a></p>
+  </div>
+</div>
+<hr />
+<div class="footer">
+  <table>
+    <tr>
+      <td><a href="ios-accessibility.html">前のページへ</a></td>
+      <td>|</td>
+      <td><a href="index.html">TOPページへ</a></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </table>
+</div>
+</body>
+</html>
